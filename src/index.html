@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
   <head>
@@ -10,6 +9,7 @@
     <title>Приложение с авторизацией</title>
   </head>
   <body>
+    <button class="mui-btn mui-btn--fab mui-btn--primary floating-btn" id="modal-btn">+</button>
     <div id="sidebar">
       <div class="mui--text-white mui--text-display1 mui--align-vertical">Вопросы
         <br>
@@ -28,7 +28,7 @@
 
           <form class="mui-form" id="form">
             <div class="mui-textfield mui-textfield--float-label">
-              <input type="text" id="question-input" required minlength="10" maxlength="255">
+              <input type="text" id="question-input" required minlength="10" maxlength="255" autocomplete="off">
               <label for="question-input">Что вы хотите спросить?</label>
             </div>
             <button 
